@@ -36,7 +36,8 @@ def contatos():
         
         cur.close()
 
-        return 'SUCESSO!'
+        return  'SUCESSO! <a href="/users" target="_self"> LISTA DOS CADASTRADOS </a>' 
+    
     return render_template('contato.html')
 
 
@@ -51,3 +52,4 @@ def users():
         userDetails = cur.fetchall()
 
         return render_template("users.html", userDetails=userDetails)
+    

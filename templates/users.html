@@ -1,7 +1,26 @@
 {% extends "base.html" %}
-
 {% block conteudo %}
+{% for user in userDetails %} 
 
+<div class="users">
 
+    <table border="1" width="50%" height="20%">
+        
+        <tr> 
+            <td>E-mail </td>
+            <td>Assunto</td>
+            <td>Descrição</td>
+        
+        </tr>
+        <tr>
+            <td>{{user[0]}}</td>
+            <td>{{user[1]}}</td>
+            <td>{{user[2]}}</td>
+        </tr>
+       <br>
+    </table>
+    
+</div>
 
+{% endfor %}
 {% endblock %}  
