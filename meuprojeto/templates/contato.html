@@ -6,20 +6,38 @@
     <title>CONTATO</title>
 </head>
 
+
+    <!-- <div class="contato">
+        <h1>Entre em contato</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime rerum velit. Cupiditate laborum voluptate error corporis impedit aperiam.</p>
+        <hr>
+        <p>Seu e-mail:</p>
+        <input type="email">
+        <p>Assunto:</p>
+        <input type="assunto">
+        <p>Descrição:</p>
+        <input type="descricao"> 
+        <br><br>
+        <input type="submit" value="Enviar">
+        <div class="line"><h3>Todos os direitos reservados</h3></div> 
+    </div> -->
+
 <div class="contato">
-   
     <h1>Entre em contato</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime rerum velit. Cupiditate laborum voluptate error corporis impedit aperiam.</p>
-    <hr>
-    <p>Seu e-mail:</p>
-    <input type="email">
-    <p>Assunto:</p>
-    <input type="assunto">
-    <p>Descrição:</p>
-    <input type="descricao"> <br><br>
-    <input type="button" value="Enviar">
-    <div class="line"><h3>Todos os direitos reservados</h3></div>
-    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime rerum velit. Cupiditate laborum voluptate error corporis impedit aperiam.</p>
+        <hr>
+    <form action="/contato" method="POST">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" ><br><br>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" ><br><br>
+
+        <label for="assunto">Descrição:</label>
+        <input type="text" id="descricao" name="descricao" ><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
 </div>
 
-{% endblock %}
+{% endblock %}  
