@@ -1,5 +1,5 @@
-### Projetos FATEC
-Desafios propostos pelos professores da FATEC-SJC, afim de manipular diferentes tecnologias em projetos.
+### Projetos FATEC-SJC
+Desafios da disciplina PMIC;
 
 #### Desafio 1
 - Website com html e css
