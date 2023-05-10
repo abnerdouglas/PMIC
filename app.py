@@ -36,7 +36,7 @@ def contatos():
         
         cur.close()
 
-        return 'sucesso'
+        return 'SUCESSO!'
     return render_template('contato.html')
 
 
