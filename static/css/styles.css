@@ -1,26 +1,26 @@
 
 .retangulo-cinza {
-   position: absolute;
-   width: 100em;
+   position: relative;
+   width: auto;
    height: 30em;
    background: rgb(233, 232, 231);
-   margin-top: 10em;
+   top: 10em;
   }
   
 .linha-azul {
    position: relative;
-   width: 100em;
+   width: auto;
    height: 0.5em;
    background: rgb(54, 65, 126);
   }
 
 .img-capa{
-   position: relative;
+   position: absolute;
    display: flex;
    justify-content: center;
-   margin-top: 10em;
    width: 100em;
    height: 30em;
+   top: 10.5em;
   }
 
 .img-logo{
@@ -86,9 +86,15 @@ hr{
   left: 10em;
   top: 10em;
   right: 6em;
-  text-align: justify;
+  
 }
 table{
   text-align: center;
   font-size: large;
+}
+
+header{
+  position: relative;
+  left: 10em;
+  top: 10em;
 }
