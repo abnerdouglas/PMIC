@@ -15,12 +15,10 @@
   }
 
 .img-capa{
-   position: absolute;
+   position: relative;
    display: flex;
    justify-content: center;
-   width: 100em;
    height: 30em;
-   top: 10.5em;
   }
 
 .img-logo{
@@ -58,7 +56,7 @@
 .quemsomos2{
     position: absolute;
     left: 10em;
-    top: 22em;
+    top: 25em;
     right: 6em;
     text-align: justify;
 }
@@ -66,7 +64,7 @@
 .quemsomos3{
     position: absolute;
     left: 10em;
-    top: 34em;
+    top: 37em;
     right: 6em;
     text-align: justify;
 }
@@ -97,4 +95,7 @@ header{
   position: relative;
   left: 10em;
   top: 10em;
+}
+.container{
+  text-align: justify;
 }
