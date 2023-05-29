@@ -6,14 +6,14 @@
     <title>HOME</title>
 </head>
 
-<div class="retangulo-cinza"> 
+<!-- <div class="retangulo-cinza"> 
     
     <div class= "img-capa">
 
         <img src="/static/img/capa.png"  alt="">
 
     </div>
-
+<section>
     <div class="container">
     
         <img src="logo.png" alt="">
@@ -22,8 +22,83 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, asperiores explicabo labore enim itaque unde voluptate eius ratione exercitationem incidunt eum possimus velit recusandae numquam blanditiis amet excepturi illo fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iusto inventore ab ullam quas minima culpa sed enim, iste sunt magnam consequatur nobis, modi amet similique? Labore laborum molestiae odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. At ratione aliquid voluptatem culpa officiis, labore eum assumenda, nihil fugiat itaque qui sequi, quis odit placeat laboriosam excepturi nesciunt! Ipsum, amet?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quia illo quidem nobis esse ex quod quibusdam corrupti? Eum molestias explicabo sit ipsa quaerat laboriosam placeat in saepe error fugiat.</p>
         <div class="line"> <h4>Todos os direitos reservados</h4> </div>
    
-</div>
-</div>
+    </div>
+</section> 
+</div> -->
+
+<head>
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .retangulo-cinza {
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .img-capa img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .line {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+        }
+
+        @media (max-width: 576px) {
+            .img-capa img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 retangulo-cinza">
+                <div class="img-capa">
+                    <img src="/static/img/capa.png" alt="">
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="logo.png" alt="">
+                    <h2>Sobre a universidade</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, asperiores explicabo labore enim
+                        itaque unde voluptate eius ratione exercitationem incidunt eum possimus velit recusandae numquam
+                        blanditiis amet excepturi illo fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laboriosam iusto inventore ab ullam quas minima culpa sed enim, iste sunt magnam consequatur
+                        nobis, modi amet similique? Labore laborum molestiae odio. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. At ratione aliquid voluptatem culpa officiis, labore eum
+                        assumenda, nihil fugiat itaque qui sequi, quis odit placeat laboriosam excepturi nesciunt! Ipsum,
+                        amet?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quia illo quidem nobis
+                        esse ex quod quibusdam corrupti? Eum molestias explicabo sit ipsa quaerat laboriosam placeat in
+                        saepe error fugiat.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, asperiores explicabo labore enim
+                        itaque unde voluptate eius ratione exercitationem incidunt eum possimus velit recusandae numquam
+                        blanditiis amet excepturi illo fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laboriosam iusto inventore ab ullam quas minima culpa sed enim, iste sunt magnam consequatur
+                        nobis, modi amet similique? Labore laborum molestiae odio. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. At ratione aliquid voluptatem culpa officiis, labore eum
+                        assumenda, nihil fugiat itaque qui sequi, quis odit placeat laboriosam excepturi nesciunt! Ipsum,
+                        amet?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quia illo quidem nobis
+                        esse ex quod quibusdam corrupti? Eum molestias explicabo sit ipsa quaerat laboriosam placeat in
+                        saepe error fugiat.</p>
+                    <div class="line">
+                        <h4>Todos os direitos reservados</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
 
 {% endblock %}
 

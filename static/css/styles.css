@@ -18,7 +18,8 @@
    position: relative;
    display: flex;
    justify-content: center;
-   height: 30em;
+   height: auto;
+   width: auto;
   }
 
 .img-logo{
@@ -98,4 +99,7 @@ header{
 }
 .container{
   text-align: justify;
+}
+section{
+  margin-top: 10em;
 }
