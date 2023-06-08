@@ -6,22 +6,31 @@
     <title>CONTATO</title>
 </head>
 
-<div class="contato">
-    <h2>Entre em contato</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime rerum velit. Cupiditate laborum voluptate error corporis impedit aperiam.</p>
-        <hr>
-    <form action="/contato" method="POST">
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" ><br><br>
-
-        <label for="assunto">Assunto:</label>
-        <input type="text" id="assunto" name="assunto" ><br><br>
-
-        <label for="assunto">Descrição:</label>
-        <input type="text" id="descricao" name="descricao" ><br><br>
-
-        <input type="submit" value="Enviar">
-    </form>
-</div>
+<section>
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <h2>Entre em contato</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime rerum velit. Cupiditate laborum voluptate error corporis impedit aperiam.</p>
+          
+          <form action="/contato" method="POST">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="text" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="assunto">Assunto:</label>
+              <input type="text" class="form-control" id="assunto" name="assunto">
+            </div>
+            <div class="form-group">
+              <label for="descricao">Descrição:</label>
+              <input type="text" class="form-control" id="descricao" name="descricao">
+            </div>
+            <input type="submit" class="btn btn-primary my-3" value="Enviar">
+          </form>
+      </div>
+    </div>
+  </div>
+</section>
 
 {% endblock %}  

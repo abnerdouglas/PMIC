@@ -11,28 +11,30 @@
 </head>
 <body>
 
-<div class="links">
-
-    <p>
-        <a href="/" target="_self">HOME</a> |
-        <a href="/quemsomos" target="_self">QUEM SOMOS</a> |
-        <a href="/contato" target="_self">CONTATO</a> |
-        <a href="/users" target="_self">LISTA</a> 
-    </p>
-
+<div class="links"> 
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-3"> <a href="/" target="_self">HOME</a></div>
+        <div class="col-sm-12 col-md-3"> <a href="/quemsomos" target="_self">QUEM SOMOS</a></div>  
+        <div class="col-sm-12 col-md-3"> <a href="/contato" target="_self">CONTATO</a></div> 
+        <div class="col-sm-12 col-md-3"> <a href="/users" target="_self">LISTA</a></div> 
+    </div>
+    </div>
 </div>
+</div>
+
 
 <div class="linha-azul"></div>
 
 <div class="img-logo">
-
     <a href="/"><img src="/static/img/logo.png" alt=""></a>
-    
 </div>
     
   {% block conteudo %}
   {% endblock %}
-
     
 </body>
+<footer>
+    <h4>Todos os direitos reservados</h4>
+</footer>
 </html>

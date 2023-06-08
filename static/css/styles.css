@@ -2,7 +2,7 @@
 .retangulo-cinza {
    position: relative;
    width: auto;
-   height: 30em;
+   height: auto;
    background: rgb(233, 232, 231);
    top: 10em;
   }
@@ -18,8 +18,14 @@
    position: relative;
    display: flex;
    justify-content: center;
-   height: auto;
-   width: auto;
+  }
+
+  @media (max-width: 576px) {
+    .img-capa img {
+        max-width: 100%;
+        height: auto;
+        
+    }
   }
 
 .img-logo{
@@ -31,41 +37,19 @@
 .links{
    position: absolute;
    top: 3em;
-   right: 10em;
+   right: 5em;
   }
 
-.home{
-    position: absolute;
-    left: 10em;
-    top: 45em;
-    right: 10em;
-    text-align: justify;
-  }
 
-.line{
+
+footer{
     text-align: center;
   }
 
 .quemsomos1{
     position: absolute;
-    left: 10em;
+    
     top: 10em;
-    right: 6em;
-    text-align: justify;
-}
-
-.quemsomos2{
-    position: absolute;
-    left: 10em;
-    top: 25em;
-    right: 6em;
-    text-align: justify;
-}
-
-.quemsomos3{
-    position: absolute;
-    left: 10em;
-    top: 37em;
     right: 6em;
     text-align: justify;
 }
@@ -103,3 +87,4 @@ header{
 section{
   margin-top: 10em;
 }
+
